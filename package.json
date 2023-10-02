@@ -1,0 +1,37 @@
+{
+  "name": "@stoneydsp/icons",
+  "version": "0.0.1-b",
+  "description": "StoneyDSP Official Website",
+  "author": "StoneyDSP",
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://github.com/StoneyDSP/stoneydsp.com#readme",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneyDSP/stoneydsp.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StoneyDSP/stoneydsp.com/issues"
+  },
+  "private": true,
+  "preferGlobal": true,
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "dev": "npx serve",
+    "build": "node --version",
+    "wipe": "yarn clean && rm -rvf node_modules"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "./public"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
